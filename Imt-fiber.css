@@ -1,0 +1,485 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+  width: 100%;
+}
+
+/* Nav Stylings */
+
+nav {
+  background-color: gainsboro;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 94%;
+  box-shadow: 12px 12px 12px 102px rgb(192, 186, 186) outset;
+}
+
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav img {
+  margin-top: -70px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+}
+
+nav li {
+  margin-right: 40px;
+}
+
+.nav-links button {
+width: 120px;
+  height: 50px;
+  margin-top: -10px;
+  background-color: rgb(231, 152, 38);
+  border: none;
+  color: white;
+}
+
+.nav-links button:hover{
+ background-color: transparent;
+ border: 2px solid #e79826;
+ color: black;
+}
+
+nav h1 {
+  color: rgb(231, 152, 38);
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+/* Main Styling */
+
+/* Hero-section stylings */
+
+.hero-section-slider {
+  background-image: url(Screenshot\ \(395\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+  width: 1320px;
+  padding-left: 30px;
+  padding-top: 30px;
+  /* background-position: right; */
+  display: flex;
+  box-shadow: 12px 12px 12px 12px rgb(235, 235, 235);
+
+}
+
+.hero-section-words {
+  margin-top: 160px;
+}
+
+.hero-section-words h1 {
+  color: rgb(231, 152, 38);
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.hero-section-words h2 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.hero-section-words button {
+  padding: 14px 31px;
+  background-color: rgb(231, 152, 38);
+  border: none;
+  color: white;
+}
+
+/* Upcoming Events Styling */
+
+.upcoming-events {
+  background-color: white;
+  height: 420px;
+  width: 350px;
+  border-radius: 3px;
+  margin-left: 270px;
+  margin-top: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.upcoming-events h3 {
+  color: rgb(71, 94, 134);
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+.dates1 {
+  display: flex;
+}
+
+.dates2 {
+  display: flex;
+}
+
+.dates3 {
+  display: flex;
+}
+
+.months {
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.date-number {
+  background-color: rgb(231, 152, 38);
+  margin-left: 16px;
+  margin-top: 0px;
+  color: white;
+  margin-right: -13px;
+  width: 30px;
+  text-align: center;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.date-number2 {
+  background-color: rgb(231, 152, 38);
+  margin-left: 16px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: white;
+  margin-right: -13px;
+  width: 30px;
+  text-align: center;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.upcoming-dates {
+  border-right: 2px solid black;
+  width: 90px;
+  height: 96%;
+  text-align: center;
+  margin-right: 30px;
+
+}
+
+.events-to-come {
+  display: flex;
+}
+
+.event-program-1 {
+  color: rgb(71, 91, 134);
+  margin-bottom: 60px;
+  font-size: 18px;
+}
+
+.event-program-1 {
+  margin-bottom: 23px;
+}
+
+.our-programs {
+  display: flex;
+  height: 300px;
+  margin-top: 60px;
+}
+
+.view-all-programs {
+  background-image: url(R.jfif);
+  height: 220px;
+  background-position: right;
+  width: 220px;
+  margin-left: 90px;
+}
+
+.Apprenticeship {
+  background-image: url(R\ \(1\).jfif);
+  height: 220px;
+  background-position: right;
+  width: 220px;
+  margin-left: 90px;
+}
+
+.Ressetlement {
+  background-image: url(Ra.jpg);
+  height: 220px;
+  background-position: right;
+  width: 220px;
+  margin-left: 90px;
+}
+
+.call {
+  background-image: url(OIP.jpg);
+  height: 220px;
+  width: 220px;
+  margin-left: 90px;
+  background-size: cover;
+}
+
+/* Program styling*/
+
+.program {
+  background-color: rgb(44, 77, 146);
+  width: 86%;
+  height:230px;
+  margin-left: 80px;
+  box-shadow: 20px 2px 20px 2px grey;
+  margin-bottom: 40px;
+  padding: 30px;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+}
+
+
+.course-registration h2 {
+  margin-bottom: 20px;
+}
+
+select {
+  width: 270px;
+  height: 35px;
+  font-size: 18px;
+  background-color: #e79826;
+  margin-top: 30px;
+}
+
+.alternative {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: -60px;
+}
+
+.course-registration {
+  border-right: 2px solid white;
+  width: 350px;
+  height: 75px;
+  padding: 60px 0px;
+}
+
+.alternative h3 {
+  font-size: 23px;
+  margin-left: 10px;
+  margin-right: 10px;
+  word-spacing: 4px;
+}
+
+.request-a-call{
+  margin-left: 120px;
+  padding: 16px 0px;
+  border-right: 2px solid white;
+  margin-right: 20px;
+  padding-right: 33px;
+  height: 150px;
+}
+
+.request-a-call h2{
+  margin-bottom: 25px;
+}
+
+.request-a-call input{
+width: 250px;
+height: 30px;
+}
+
+.phone-number{
+
+}
+
+#submit-button{
+  width: 120px;
+  margin-left: 52px;
+  background-color: #e79826;
+  border: none;
+  border-radius: 1px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#submit-button:hover{
+  background-color: transparent;
+  border: 2px solid #e79826;
+}
+
+.alternative-2{
+  margin-left: 70px;
+}
+
+.input-message textarea{
+padding-left: 12px;
+font-size: 17px;
+margin-bottom: 0px;
+}
+
+.alternative-2  h2{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+#submit-button2{
+  width: 120px;
+  margin-left: 135px;
+  background-color: #e79826;
+  border: none;
+  border-radius: 1px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#submit-button2:hover{
+  background-color: transparent;
+  border: 2px solid #e79826;
+}
+
+
+/* about us */
+
+.about-us{
+  box-shadow: 2px 2px 22px 2px rgb(218, 218, 218) inset;
+ width: 90%;
+ height: 280px;
+ margin-left: 20px;
+ padding-left: 80px;
+ padding-top: 40px;
+overflow: scroll;
+
+}
+
+.about-us h2{
+ color: rgb(44, 77, 146);
+ margin-bottom: 13px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.about-organizations{
+  display: flex;
+  margin-left: -80px;
+  margin-top: 70px;
+}
+
+.what-you-need-to-know-about-foa{
+width: 600px;
+margin-left: -340px;
+margin-top: 30px;
+}
+
+.what-you-need-to-know-about-foa h3{
+  font-size: 16px;
+  color: rgb(44, 77, 146);
+}
+
+.about-us-at-foa{
+margin-left: 400px;
+}
+
+
+.who-is-imt{
+  display: flex;
+}
+
+
+.Intership-programs{
+  display: flex;
+  margin-top: 40px;
+}
+
+.intership-picture{
+  height: 320px;
+}
+
+.intership-picture img{
+ width: 630px;
+ 
+
+}
+
+.programme{
+  background-color: rgb(14, 55, 68);
+  width: 70%;
+  padding-top: 7%;
+  color: white;
+  padding-left: 3%;
+}
+
+
+
+.programme h2{
+  font-size: 33px;
+  margin-bottom: 30px;
+}
+
+#submit-button3{
+  width: 120px;
+  /* margin-left: 52px; */
+  background-color: #e79826;
+  border: none;
+  border-radius: 1px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+#submit-button3:hover{
+  background-color: transparent;
+  border: 2px solid #e79826;
+}
+
+
+footer{
+  display: flex;
+  background-color: rgb(14, 13, 13);
+  padding: 30px 20px;
+  margin-top: 60px;
+  height: 210px;
+}
+
+footer h3{
+color: #e79826;
+font-size: 28px;
+margin-bottom: 50px;
+margin-top: 23px;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+.courses p{
+  color: rgb(216, 207, 207);
+  margin-bottom: 20px;
+}
+
+.about-training{
+  margin-left: 130px;
+}
+
+.about-training p{
+  color: rgb(216, 207, 207);
+  margin-bottom: 20px;
+}
+
+.Help-Support{
+  margin-left: 130px;
+}
+
+.Help-Support p{
+  color: rgb(216, 207, 207);
+  margin-bottom: 20px;
+}
